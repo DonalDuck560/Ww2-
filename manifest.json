@@ -1,0 +1,16 @@
+{
+  "name": "Frontline: Road to Cologne",
+  "short_name": "Frontline",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f1110",
+  "theme_color": "#1a1d1b",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
