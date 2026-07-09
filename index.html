@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontline: Road to Cologne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Operational Command</h1>
+            <div id="status-bar">
+                <div class="hud-item">
+                    <span>Einsatzort:</span>
+                    <strong id="location">-</strong>
+                </div>
+                <div class="hud-item">
+                    <span>Ausrüstung:</span>
+                    <strong id="ammo-display">AMMO: 5 | MED: 1</strong>
+                </div>
+                <div class="hud-item">
+                    <span>Vitalwerte:</span>
+                    <div class="hp-bar-container"><div id="hp-bar"></div></div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div id="narrator-box">
+                <button id="voice-btn" onclick="toggleVoice()">🔊 Erzähler: AN</button>
+            </div>
+            <p id="story-text">Initialisiere Mission...</p>
+            <div id="combat-log">>> System bereit. Befehlsausgabe erwartet.</div>
+            <div id="choices"></div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
